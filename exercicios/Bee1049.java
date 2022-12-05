@@ -3,7 +3,8 @@ package Exercicios;
 import java.util.Scanner;
 
 public class Bee1049 {
-  Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		
 		String palavra1 = sc.nextLine();
 		
