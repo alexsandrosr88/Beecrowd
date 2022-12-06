@@ -10,15 +10,15 @@ public class Bee1051 {
 		
 		sc.close();
 		
-		double imposto, imposto8, imposto18, imposto28, descontoTotal;
+		double imposto8, imposto18, imposto28, descontoTotal;
 		
 		if(salario > 0.0 && salario <= 2000.00) {
 			System.out.println("Isento");
 		}
 		else if(salario >= 2000.01 && salario <= 3000.00) {
-			imposto = ((salario - 2000.00) * 8)/100;
+			imposto8 = ((salario - 2000.00) * 8)/100;
 			
-			System.out.println(imposto);
+			System.out.println("R$ "+String.format("%.2f", imposto8));
 		}
 		else if(salario >= 3000.01 && salario <= 4500.00) {
 			imposto18 = salario - 3000.00;
