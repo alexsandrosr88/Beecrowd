@@ -9,13 +9,8 @@ public class Bee1095 {
 				System.out.print("I="+(i)+" ");
 				System.out.println("J="+j);
 			}
-			else if(j!=0) {
+			else if(j>0) {
 				j-=5;
-				System.out.print("I="+(i+=2)+" ");
-				System.out.println("J="+j);
-			}
-			else {
-				j=0;
 				System.out.print("I="+(i+=2)+" ");
 				System.out.println("J="+j);
 			}
