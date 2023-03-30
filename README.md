@@ -7,6 +7,7 @@ O código desenvolvido enviado ao site é imediatamente validado com feedback se
 
 https://www.beecrowd.com.br
 
+Gosto do site e uso ele para praticar a lógica de programação.
 
 ## Tecnologias utilizadas
 
